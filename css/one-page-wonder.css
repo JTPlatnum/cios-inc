@@ -6,33 +6,52 @@
 
 body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+
+    font-family: 'PT Sans', sans-serif;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+    font-size: 24px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
 }
 
 .header-image {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('http://placehold.it/1900x500') no-repeat center center scroll;
+    background: linear-gradient( rgba(0, 0, 0, .75), rgba(0, 0, 0, .75) ), url('../img/sandiegobackground.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    opacity: 75;
+}
+
+.jumbotron-logo {
+    max-width: 500px;
+}
+
+.footer-logo {
+    max-width: 150px;
 }
 
 .headline {
     padding: 120px 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .headline h1 {
     font-size: 130px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    color: white;
 }
 
 .headline h2 {
     font-size: 77px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    color: white;
 }
 
 .featurette-divider {
