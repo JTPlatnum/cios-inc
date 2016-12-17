@@ -196,3 +196,7 @@ footer {
         margin-left: 0;
     }
 }
+
+.img-circle {
+    max-width: 300px;
+}
