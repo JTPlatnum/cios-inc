@@ -32,7 +32,7 @@ body {
 }
 
 .jumbotron-logo {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
 }
 
@@ -46,12 +46,12 @@ body {
 }
 
 .headline h1 {
-    font-size: 130px;
+    font-size: 110px;
     color: white;
 }
 
 .headline h2 {
-    font-size: 77px;
+    font-size: 50px;
     color: white;
 }
 
